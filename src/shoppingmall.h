@@ -1,10 +1,10 @@
 #include"mysqldata.h"
 #include"htmlserver.h"
 
-class Dndd : public HTMLServer 
+class ShoppingMall : public HTMLServer 
 {
 public:
-	Dndd();
+	ShoppingMall();
 
 protected:
 	SqlQuery sq;
